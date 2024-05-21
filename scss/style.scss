@@ -1,0 +1,63 @@
+@import 'utils/_reset';
+@import 'utils/mixin';
+@import 'utils/variable';
+@import 'utils/font';
+@import 'utils/_animation';
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/button';
+@import 'components/arrow';
+
+@import 'templates/section';
+
+@import 'views/hero';
+@import 'views/feature';
+@import 'views/team';
+
+@import 'utils/responsive';
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+  background: $bg-color;
+  color: $white;
+      background-image: url('../public/grain.png');
+      background-blend-mode: color-dodge;
+}
+
+.content {
+  height: 100%;
+  font-family: "Roboto Flex", sans-serif;
+  &::after {
+    content: "";
+    position: absolute;
+    opacity: .06;
+    top: 10%;
+    left: 50%;
+    transform: translate(0, -50%);
+    box-shadow: 0 0 1920px 300px $primary;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.hidden {
+	display: none;
+}
+
+
+

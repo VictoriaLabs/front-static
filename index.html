@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>VictoriaLabs</title>
+</head>
+
+<body>
+  <section class="content">
+    <header>
+      <div class="header__logo">
+        VictoriaLabs
+      </div>
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="header__menu">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#feature">Features</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__panel">
+        <a href="#" class="btn btn-transp">Sign In</a>
+        <a href="#" class="btn btn-primary">Sign Up</a>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero__content slideFromTopAndFadeIn">
+        <h1 class="hero__content--title">VictoriaLabs</h1>
+        <p class="hero__content--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque odio molestias
+          rem reprehenderit aperiam saepe necessitatibus! Aperiam consectetur recusandae sit impedit, repellendus
+          inventore fugiat? Adipisci rerum esse totam corrupti assumenda?</p>
+        <button class="btn btn-primary join-hero">Nous rejoindre</button>
+      </div>
+      <div class="arrow">
+        <a href="#feature">
+        <span></span>
+        <span></span>
+        <span></span>
+        </a>
+    </div>
+
+    </section>
+    <section id="feature" class="feature section">
+
+      <div class="section__header">
+        <div class="section__title">Features</div>
+        <div class="section__line"></div>
+      </div>
+
+      <div class="feature__content section__content">
+        <div class="feature__item">
+            <div class="feature__item--avatar"><i class="fa-solid fa-earth-americas"></i></div>
+            <h2 class="feature__item--title">Feature 1</h2>
+            <p class="feature__item--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+        </div>
+        <div class="feature__item">
+          <div class="feature__item--avatar"><i class="fa-solid fa-earth-americas"></i></div>
+          <h2 class="feature__item--title">Feature 1</h2>
+          <p class="feature__item--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+      </div>
+      <div class="feature__item">
+        <div class="feature__item--avatar"><i class="fa-solid fa-earth-americas"></i></div>
+        <h2 class="feature__item--title">Feature 1</h2>
+        <p class="feature__item--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+    </div>
+    <div class="feature__item">
+      <div class="feature__item--avatar"><i class="fa-solid fa-earth-americas"></i></div>
+      <h2 class="feature__item--title">Feature 1</h2>
+      <p class="feature__item--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+  </div>
+  <div class="feature__item">
+    <div class="feature__item--avatar"><i class="fa-solid fa-earth-americas"></i></div>
+    <h2 class="feature__item--title">Feature 1</h2>
+    <p class="feature__item--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+</div>
+<div class="feature__item">
+  <div class="feature__item--avatar"><i class="fa-solid fa-earth-americas"></i></div>
+  <h2 class="feature__item--title">Feature 1</h2>
+  <p class="feature__item--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+</div>
+      </div>
+    </section>
+    <section id="team" class="team section">
+      <div class="section__header">
+        <div class="section__title">L'équipe</div>
+        <div class="section__line"></div>
+      </div>
+
+      <div class="team__content section__content">
+
+            <div class="team__content--item">
+      
+              <button class="left team-btn-scroll" onclick="leftScroll()">
+                <i class="fas fa-angle-double-left"></i>
+              </button>
+
+              <div class="scroll-images">
+                <div class="child">
+                    <img src="/public/avatar.jpg">
+                    <h3>John Doe</h3>
+                    <h5>Artist</h5>
+                    <div class="icons">
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                    </div>
+                </div>
+                <div class="child">
+                  <img src="/public/avatar.jpg">
+                  <h3>John Doe</h3>
+                  <h5>Artist</h5>
+                  <div class="icons">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                  </div>
+                </div>
+                <div class="child">
+                  <img src="/public/avatar.jpg">
+                  <h3>John Doe</h3>
+                  <h5>Artist</h5>
+                  <div class="icons">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                  </div>
+              </div>
+              <div class="child">
+                <img src="/public/avatar.jpg">
+                <h3>John Doe</h3>
+                <h5>Artist</h5>
+                <div class="icons">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                </div>
+            </div>
+            <div class="child">
+              <img src="/public/avatar.jpg">
+              <h3>John Doe</h3>
+              <h5>Artist</h5>
+              <div class="icons">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+              </div>
+          </div>
+          <div class="child">
+            <img src="/public/avatar.jpg">
+            <h3>John Doe</h3>
+            <h5>Artist</h5>
+            <div class="icons">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+            </div>
+        </div>
+        <div class="child">
+          <img src="/public/avatar.jpg">
+          <h3>John Doe</h3>
+          <h5>Artist</h5>
+          <div class="icons">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+          </div>
+      </div>
+      <div class="child">
+        <img src="/public/avatar.jpg">
+        <h3>John Doe</h3>
+        <h5>Artist</h5>
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+        </div>
+    </div>
+    <div class="child">
+      <img src="/public/avatar.jpg">
+      <h3>John Doe</h3>
+      <h5>Artist</h5>
+      <div class="icons">
+        <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+      </div>
+  </div>
+  <div class="child">
+    <img src="/public/avatar.jpg">
+    <h3>John Doe</h3>
+    <h5>Artist</h5>
+    <div class="icons">
+      <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+    </div>
+</div>
+<div class="child">
+  <img src="/public/avatar.jpg">
+  <h3>John Doe</h3>
+  <h5>Artist</h5>
+  <div class="icons">
+    <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+  </div>
+</div>
+              </div>
+
+              <button class="right team-btn-scroll" onclick="rightScroll()">
+                <i class="fas fa-angle-double-right"></i>
+              </button>
+          
+          </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__top"></div>
+      <div class="footer__bottom">
+        <div class="footer__bottom--socials">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-twitch"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>VictoriaLabs. All right reserved</p>
+      </div>
+
+    </footer>
+  </section>
+
+  <script src="script/app.js"></script>
+</body>
+
+</html>
+</html>

@@ -1,0 +1,31 @@
+.btn-primary {
+  background-color: $primary;
+  color: $white;
+  text-shadow: -1px 1px 20px black;
+  border: 1px solid $primary;
+  &:hover {
+    border: 1px solid transparent;
+    background-color: $primary-dark;
+  }
+
+}
+
+.btn-transp {
+  background-color: transparent;
+  color: $white;
+  border: 1px solid transparent;
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+}
+
+.btn {
+  padding: 9px 19px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,108 @@
+.team__content{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.team__content--item {
+	position: relative;
+	width: 100%;
+	display: flex;
+	gap: 10px;
+}
+.team__content img{
+	width: 150px;
+	height: 150px;
+	border-radius: 999px;
+	margin-bottom: 15px;
+	object-fit: cover;
+}
+.center h1{
+	color: #fff;
+	font-size: 4rem;
+	text-align: center;
+}
+.child{
+	padding: 16px;
+	background: $circle;
+	border-radius: 15px;
+	transition: all .38s ease;
+  flex: 1 0 27%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.child h3{
+	font-size: 23px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 8px;
+}
+.child h5{
+	font-size: 15px;
+	font-weight: 600;
+	color: #b7b4bb;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+}
+.icons i{
+	display: inline-block;
+	color: $primary;
+	font-size: 20px;
+	margin: 0 8px;
+	transition: all .38s ease;
+}
+
+.child:hover{
+	box-shadow: inset 0px -20px 56px 0px #ffa15d26;
+	cursor: pointer;
+}
+
+
+
+.scroll-images {
+	position: relative;
+	width: 100%;
+	gap: 30px;
+	height: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+ // -webkit-mask: linear-gradient(90deg,#0000,#000 8% 90%,#0000);
+}
+
+.scroll-images::-webkit-scrollbar {
+	display: none;
+}
+
+
+.team-btn-scroll {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: 25px;
+	padding: 0;
+	
+	i {
+		cursor: pointer;
+		opacity: .5;
+		color: $primary;
+		
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+
+@media(max-width: 1240px){
+	.center h1{
+		font-size: 3.2rem;
+	}
+}

@@ -1,0 +1,29 @@
+.hero {
+  height: 92%;
+  @include flex-center;
+  flex-direction: column;
+ 
+  &__content {
+    @include flex-center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: auto;
+    &--title {
+      font-size: 3.7rem;
+      font-weight: 700;
+      color: $white;
+    }
+
+    &--text {
+      color: $white-low;
+      max-width: 50%;
+      text-align: center;
+      line-height: 23px;
+      font-size: 18px;
+    }
+  }
+}
+
+.join-hero {
+  font-size: 16px;
+}

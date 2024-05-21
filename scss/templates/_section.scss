@@ -1,0 +1,34 @@
+.section {
+  @include flex-center;
+  flex-direction: column;
+  animation: slideFromLeft .7s ease, fadeIn 2s ease;
+  margin-bottom: 5rem;
+  padding-top: 3rem;
+}
+
+.section__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  gap: 5%
+}
+
+.section__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: $white;
+  position: relative; 
+}
+
+.section__line {
+    flex-grow: 1;
+    height: 1.2px;
+    background: $primary; 
+}
+
+.section__content {
+  width: 80%;
+  padding: 40px 0;
+}

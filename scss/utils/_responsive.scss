@@ -1,0 +1,20 @@
+// HERO 
+//add media screen for mobile size
+@media screen and (max-width: 768px) {
+
+  .hero__content {
+    padding: 0 40px;
+    margin-top: 0;
+  }
+  .hero__content--text {
+    max-width: none;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .child {
+    flex: 1 0 100%;
+  }
+}
