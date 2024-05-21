@@ -3,6 +3,7 @@ header {
   justify-content: space-around;
   height: 8%;
   flex-wrap: wrap;
+  padding: 0 20px;
 
   .header__logo {
     font-weight: 700;
@@ -53,16 +54,13 @@ header {
     .header__menu {
       position: absolute;
       top: 8%;
-
       width: 100%;
-   
     }
+    
     .header__menu nav {
       display: none;
       width: 100%;
       background-color: $primary;
-
-
     }
   
     .header__menu nav ul {

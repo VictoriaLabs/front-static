@@ -109,6 +109,7 @@ header {
   justify-content: space-around;
   height: 8%;
   flex-wrap: wrap;
+  padding: 0 20px;
 }
 header .header__logo {
   font-weight: 700;
@@ -415,6 +416,7 @@ footer {
   font-weight: 600;
   color: #fff;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .child h5 {
