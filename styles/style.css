@@ -115,6 +115,9 @@ header .header__logo {
   color: #f7f3f3;
   font-size: 2.4rem;
 }
+header nav {
+  display: block;
+}
 header nav ul {
   display: flex;
   gap: 16px;
